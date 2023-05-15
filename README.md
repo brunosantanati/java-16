@@ -1,6 +1,6 @@
 # Java 16
 
-## Useful Links
+## Useful Links (Podcast link and JEPs it talks about)
 
 Spotify - Inside Java - [Podcast Episode "Java 16 is Here!" with Mikael Vidstedt](https://open.spotify.com/episode/1e8TO5coUMLjf4DE8ZngNw)  
 [JEP 396](https://openjdk.org/jeps/396) - Strongly Encapsulate JDK Internals by Default  
@@ -9,3 +9,27 @@ Spotify - Inside Java - [Podcast Episode "Java 16 is Here!" with Mikael Vidstedt
 [JEP 338](https://openjdk.org/jeps/338) - Vector API (Incubator)  
 [JEP 390](https://openjdk.org/jeps/390) - Warnings for Value-Based Classes  
 [JEP 376](https://openjdk.org/jeps/376) - ZGC: Concurrent Thread-Stack Processing  
+
+## List of JEPs
+
+[Link with all JEPs](https://openjdk.org/projects/jdk/16/)  
+
+```
+338:	Vector API (Incubator)
+347:	Enable C++14 Language Features
+357:	Migrate from Mercurial to Git
+369:	Migrate to GitHub
+376:	ZGC: Concurrent Thread-Stack Processing
+380:	Unix-Domain Socket Channels
+386:	Alpine Linux Port
+387:	Elastic Metaspace
+388:	Windows/AArch64 Port
+389:	Foreign Linker API (Incubator)
+390:	Warnings for Value-Based Classes
+392:	Packaging Tool
+393:	Foreign-Memory Access API (Third Incubator)
+394:	Pattern Matching for instanceof
+395:	Records
+396:	Strongly Encapsulate JDK Internals by Default
+397:	Sealed Classes (Second Preview)
+```
