@@ -27,11 +27,12 @@ record Person(String name, String id) {
 }
 
 /*
-java-16/examples-java-16/out/production/examples-java-16/me/brunosantana/records$ javap Person.class
+~/IdeaProjects/java-16/examples-java-16/out/production/examples-java-16/me/brunosantana/records$ javap Person.class
 Compiled from "Person.java"
 final class me.brunosantana.records.Person extends java.lang.Record {
   public static java.lang.String address;
   public me.brunosantana.records.Person(java.lang.String, java.lang.String);
+  public me.brunosantana.records.Person(java.lang.String, java.lang.String, java.lang.String);
   public void sayHello();
   public final java.lang.String toString();
   public final int hashCode();
