@@ -33,3 +33,20 @@ Spotify - Inside Java - [Podcast Episode "Java 16 is Here!" with Mikael Vidstedt
 396:	Strongly Encapsulate JDK Internals by Default
 397:	Sealed Classes (Second Preview)
 ```
+
+## Other links
+
+[Java 16 records tutorial - New feature in java 16](https://www.youtube.com/watch?v=b2dKyR_TJZs)  
+[Java 16 Records](https://codippa.com/java-16-records/) (written version of the video above)  
+[javap](https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javap.html)  
+
+## Useful commands
+```
+In the folder where the class files are located
+(for example: examples-java-16/out/production/examples-java-16/me/brunosantana/records)
+run:
+
+javap Employee.class
+
+javap disassembles one or more class files.
+```
